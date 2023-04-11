@@ -28,12 +28,14 @@ function recursive(arr, l, r, num)
 	let num = prompt("enter the num to search");
 	let index = recursive(arr, 0, n - 1, num);
 
-    document.write(arr)
+  
 
 	if (index != -1){
+        document.write(arr)
 	document.write('true');
 	}
 	else{
+        document.write(arr)
 		document.write("false");
 	}
 	
