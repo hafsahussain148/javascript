@@ -35,7 +35,7 @@ function recursive(arr, l, r, num)
 	document.write('true');
 	}
 	else{
-        document.write(arr)
+        console.log(arr)
 		document.write("false");
 	}
 	
